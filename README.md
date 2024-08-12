@@ -3,7 +3,7 @@
 
 ## Table of Contents
 <ul>
-    <li id=#about>About</li>
+    <li><a href=#about>About</a></li>
     <li id=#features>Features</li>
     <li id=#requirements>Requirements</li>
     <li id=#installation>Installation</li>
