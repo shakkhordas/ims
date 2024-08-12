@@ -81,36 +81,34 @@ php artisan migrate
 <p>N/A</p>
 
 <h3 id="usage">Usage</h3>
+<h4>Run the application locally:</h4>
+
+```
+php artisan serve
+```
+
+<h4>Access the application at `http://localhost:8000`.</h4>
+<h4>Frontend Scripts:</h4>
+
+```
+npm run build
+npm run dev
+```
+
+<h3 id="testing">Testing</h3>
+<p>Work in Progress</p>
+
+<h3 id="deployment">Deployment</h3>
+<p>Work in Progress</p>
+
+<h3 id="contributing">Contributing</h3>
+<p>N/A</p>
+
+<h3 id="license">License</h3>
+<p>N/A</p>
+
+<h3 id="contact">Contact</h3>
 <ul>
-    <li>Run the application locally:</li>
-
-    ```
-    php artisan serve
-    ```
-
+    <li>Author: Sakhor Das Opi</li>
+    <li>Email: shakkhordas117@gmail.com</li>
 </ul>
-
-<h3 id="testing">
-    Testing
-</h3>
-<p>lorem ipsum</p>
-
-<h3 id="deployment">
-    Deployment
-</h3>
-<p>lorem ipsum</p>
-
-<h3 id="contributing">
-    Contributing
-</h3>
-<p>lorem ipsum</p>
-
-<h3 id="license">
-    License
-</h3>
-<p>lorem ipsum</p>
-
-<h3 id="contact">
-    Contact
-</h3>
-<p>lorem ipsum</p>
