@@ -31,22 +31,64 @@
 </ol>
 
 <h3 id="installation">Installation</h3>
-<h5>Step 1: Clone the repository</h5>
+<h4>Step 1: Clone the repository</h4>
 
 ```
 git clone https://github.com/shakkhordas/ims
 cd ims
 ```
 
-<h3 id="configuration">
-    Configuration
-</h3>
-<p>lorem ipsum</p>
+<h4>Step 2: Install dependencies</h4>
 
-<h3 id="usage">
-    Usage
-</h3>
-<p>lorem ipsum</p>
+```
+composer install
+npm install && npm run dev
+```
+
+<h4>Step 3: Set up environment variables</h4>
+<p>Rename the .env.example file to .env and update the configuration:</p>
+
+```
+cp .env.example .env
+```
+
+<p>Generate the application key:</p>
+
+```
+php artisan key:generate
+```
+
+<h4>Step 4: Set up the database</h4>
+<p>Create a database and update the `.env` file with the following database credentials.</p>
+
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=ims
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+<p>Run the migrations:</p>
+
+```
+php artisan migrate
+```
+
+<h3 id="configuration">Configuration</h3>
+<h4>Mail Configuration</h4>
+<p>N/A</p>
+
+<h3 id="usage">Usage</h3>
+<ul>
+    <li>Run the application locally:</li>
+
+    ```
+    php artisan serve
+    ```
+
+</ul>
 
 <h3 id="testing">
     Testing
