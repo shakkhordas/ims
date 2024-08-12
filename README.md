@@ -19,17 +19,19 @@
 <h3 id="about">
     About
 </h3>
-<p>lorem ipsum</p>
+<p>Work in Progress</p>
 
 <h3 id="features">
     Features
 </h3>
-<p>lorem ipsum</p>
+<p>Work in Progress</p>
 
 <h3 id="requirements">
     Requirements
 </h3>
-<p>lorem ipsum</p>
+<ol>
+    <li>**PHP** >= 8.2</li>
+</ol>
 
 <h3 id="installation">
     Installation
