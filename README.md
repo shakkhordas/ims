@@ -32,9 +32,12 @@
 
 <h3 id="installation">Installation</h3>
 <h5>Step 1: Clone the repository</h5>
+
 ```
+
 git clone https://github.com/yourusername/your-repository.git
 cd your-repository
+
 ```
 
 <h3 id="configuration">
