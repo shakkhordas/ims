@@ -4,16 +4,16 @@
 ## Table of Contents
 <ul>
     <li><a href=#contact>About</a></li>
-    <li id=#features>Features</li>
-    <li id=#requirements>Requirements</li>
-    <li id=#installation>Installation</li>
-    <li id=#configuration>Configuration</li>
-    <li id=#usage>Usage</li>
-    <li id=#testing>Testing</li>
-    <li id=#deployment>Deployment</li>
-    <li id=#contributing>Contributing</li>
-    <li id=#license>License</li>
-    <li id=#contact>Contact</li>
+    <li><a href=#features>Features</a></li>
+    <li><a href=#requirements>Requirements</a></li>
+    <li><a href=#installation>Installation</a></li>
+    <li><a href=#configuration>Configuration</a></li>
+    <li><a href=#usage>Usage</a></li>
+    <li><a href=#testing>Testing</a></li>
+    <li><a href=#deployment>Deployment</a></li>
+    <li><a href=#contributing>Contributing</a></li>
+    <li><a href=#license>License</a></li>
+    <li><a href=#contact>Contact</a></li>
 </ul>
 
 <h3 id="about">
@@ -22,51 +22,51 @@
 <p>lorem ipsum</p>
 
 <h3 id="features">
-    About
+    Features
 </h3>
 <p>lorem ipsum</p>
 
 <h3 id="requirements">
-    About
+    Requirements
 </h3>
 <p>lorem ipsum</p>
 
 <h3 id="installation">
-    About
+    Installation
 </h3>
 <p>lorem ipsum</p>
 
 <h3 id="configuration">
-    About
+    Configuration
 </h3>
 <p>lorem ipsum</p>
 
 <h3 id="usage">
-    About
+    Usage
 </h3>
 <p>lorem ipsum</p>
 
 <h3 id="testing">
-    About
+    Testing
 </h3>
 <p>lorem ipsum</p>
 
 <h3 id="deployment">
-    About
+    Deployment
 </h3>
 <p>lorem ipsum</p>
 
 <h3 id="contributing">
-    About
+    Contributing
 </h3>
 <p>lorem ipsum</p>
 
 <h3 id="license">
-    About
+    License
 </h3>
 <p>lorem ipsum</p>
 
 <h3 id="contact">
-    About
+    Contact
 </h3>
 <p>lorem ipsum</p>
