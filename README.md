@@ -34,10 +34,8 @@
 <h5>Step 1: Clone the repository</h5>
 
 ```
-
-git clone https://github.com/yourusername/your-repository.git
-cd your-repository
-
+git clone https://github.com/shakkhordas/ims
+cd ims
 ```
 
 <h3 id="configuration">
