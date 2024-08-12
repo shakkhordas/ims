@@ -16,27 +16,26 @@
     <li><a href=#contact>Contact</a></li>
 </ul>
 
-<h3 id="about">
-    About
-</h3>
+<h3 id="about">About</h3>
 <p>Work in Progress</p>
 
-<h3 id="features">
-    Features
-</h3>
+<h3 id="features">Features</h3>
 <p>Work in Progress</p>
 
-<h3 id="requirements">
-    Requirements
-</h3>
+<h3 id="requirements">Requirements</h3>
 <ol>
-    <li>**PHP** >= 8.2</li>
+    <li>PHP >= 8.3.6</li>
+    <li>Laravel >= 11.9</li>
+    <li>Composer >= 2.7.6</li>
+    <li>MySQL >= 8.3.0</li>
 </ol>
 
-<h3 id="installation">
-    Installation
-</h3>
-<p>lorem ipsum</p>
+<h3 id="installation">Installation</h3>
+<h5>Step 1: Clone the repository</h5>
+```
+git clone https://github.com/yourusername/your-repository.git
+cd your-repository
+```
 
 <h3 id="configuration">
     Configuration
