@@ -3,10 +3,12 @@
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\Home\HomeSlideController;
 use App\Http\Controllers\ProfileController;
+use App\Models\HomeSlide;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('frontend.index');
+    $pageData = HomeSlide::find(1);
+    return view('frontend.index', compact('pageData'));
 });
 
 Route::get('/dashboard', function () {

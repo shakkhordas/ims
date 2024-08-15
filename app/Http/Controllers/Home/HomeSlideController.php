@@ -4,15 +4,13 @@ namespace App\Http\Controllers\Home;
 
 use App\Models\HomeSlide;
 use Illuminate\Http\Request;
-use Intervention\Image\ImageManager;
-use Intervention\Image\Drivers\Imagick\Driver;
 use App\Http\Controllers\Controller;
+use Intervention\Image\Laravel\Facades\Image;
 
 class HomeSlideController extends Controller
 {
     public function Home()
     {
-
         $homeSlideData = HomeSlide::find(1);
         return view('admin.home_slide.index', compact('homeSlideData'));
     }
@@ -28,9 +26,7 @@ class HomeSlideController extends Controller
             $imageName = hexdec(uniqid()) . '.' . $image->getClientOriginalExtension();
             $saveLocation = 'uploads/home_slide_images/' . $imageName;
 
-            $image = ImageManager::imagick()->read($image);
-
-            $image->resize(636, 852)->save($saveLocation);
+            Image::read($image)->resize(636, 852)->save(public_path($saveLocation));
 
             HomeSlide::findOrFail($slideId)->update([
                 'title' => $request->title,

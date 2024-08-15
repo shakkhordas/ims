@@ -38,9 +38,9 @@
                                 </div>
                                 <!-- end row -->
                                 <div class="row mb-3">
-                                    <label for="example-text-input" class="col-sm-2 col-form-label">Slider Image</label>
+                                    <label for="sliderImage" class="col-sm-2 col-form-label">Slider Image</label>
                                     <div class="col-sm-10">
-                                        <input class="form-control" name="image" type="file" id="example-text-input">
+                                        <input class="form-control" name="image" type="file" id="sliderImage">
                                     </div>
                                 </div>
                                 <!-- end row -->
@@ -48,7 +48,7 @@
                                     <label for="imagePreview" class="col-sm-2 col-form-label"></label>
                                     <div class="col-sm-10">
                                         <img class="rounded me-2" width="200" id="imagePreview"
-                                            alt="Uploaded Image" src="{{ $homeSlideData->image ? asset('uploads/home_slide_images/'.$homeSlideData->image) : asset('frontend/assets/img/images/about_img.png') }}">
+                                            alt="Uploaded Image" src="{{ $homeSlideData->image ? asset($homeSlideData->image) : asset('frontend/assets/img/images/about_img.png') }}">
                                     </div>
                                 </div>
                                 <!-- end row -->
@@ -64,7 +64,7 @@
 
     <script>
         $(document).ready(function() {
-            $('#image').change(function(event) {
+            $('#sliderImage').change(function(event) {
                 if (event.target.files && event.target.files[0]) {
                     var reader = new FileReader();
                     reader.onload = function(e) {
