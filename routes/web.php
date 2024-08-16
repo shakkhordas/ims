@@ -1,14 +1,17 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\Home\AboutController;
 use App\Http\Controllers\Home\HomeSlideController;
 use App\Http\Controllers\ProfileController;
+use App\Models\About;
 use App\Models\HomeSlide;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $pageData = HomeSlide::find(1);
-    return view('frontend.index', compact('pageData'));
+    $about = About::find(1);
+    return view('frontend.index', compact('pageData', 'about'));
 });
 
 Route::get('/dashboard', function () {
@@ -29,6 +32,13 @@ Route::controller(AdminController::class)->group(function () {
 Route::controller(HomeSlideController::class)->group(function () {
     Route::get('home/slide', 'Home')->name('home_slide.home');
     Route::post('home/slide/update', 'Update')->name('home_slide.update');
+});
+
+// All About Page Routes
+Route::controller(AboutController::class)->group(function () {
+    Route::get('about/edit', 'edit')->name('about.edit');
+    Route::post('about/update', 'update')->name('about.update');
+    Route::get('about', 'index')->name('about.home');
 });
 
 Route::middleware('auth')->group(function () {
